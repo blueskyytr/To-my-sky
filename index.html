@@ -1,0 +1,40 @@
+<<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>HI SAYANG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="introOverlay">
+  <div class="introBox">
+    <h2>ohoo, hi batman...</h2>
+    <p>
+      kita ketemu lagi yeyy<br><br>
+      semangat menemukan passwordnya,<br>
+      dan menemukan banyaak hal baik di dalam sana<3
+    </p>
+    <button onclick="enterSite()">Lanjut</button>
+  </div>
+</div>
+
+<div id="login">
+  <h2>bip bip masukin password dulu batman</h2>
+  <input type="password" id="adminPassword" placeholder="my favorite person">
+  <button onclick="loginAdmin()">Masuk</button>
+
+  <p id="notif" style="color:#ff8080; margin-top:10px;"></p>
+</div>
+
+<div id="main" style="display:none;">
+  <h1>OUR MEMORIES</h1>
+<p class="subtext">disini ada beberapa hal kecil yang ada cerita dan makna yang luar biasa besar buat aku...<br>
+hal yang bikin aku selalu ngerasa bersyukur ketemu kamu sayang...<br>
+kalau keliatan alay, maklumin yaa hehe
+</p>
+  <div class="gallery" id="gallery"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
